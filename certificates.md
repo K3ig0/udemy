@@ -53,3 +53,7 @@
 ### Distributed Systems & Cloud Computing
 > https://imatia.udemy.com/certificate/UC-2aea40da-fb2d-4fe0-a5d1-498202d5e568
 >>
+
+### Java Reflection - Master Class -by Michael Pogrebinsky-
+> https://imatia.udemy.com/certificate/UC-2e842fa8-2487-49a9-81ef-d72140e95de5
+>>
