@@ -1,5 +1,6 @@
 package com.healthycoderapp;
 
+import static org.junit.Assume.assumeTrue;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -21,6 +22,8 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
 class BMICalculatorTest {
+	
+	private String environment = "dev";
 	
 	@BeforeAll
 	static void beforeAll() {
@@ -93,6 +96,7 @@ class BMICalculatorTest {
 	@Test
 	void should_ReturnCoderWithWorstBMIIn1Ms_When_CoderListHas10000Elements() {
 		//given
+		assumeTrue(this.environment.equals("prod"));
 		List<Coder> coders = new ArrayList<>();
 		for (int i=0; i < 10000; i++) {
 			coders.add(new Coder(1.0 + i, 10.0 + i));
