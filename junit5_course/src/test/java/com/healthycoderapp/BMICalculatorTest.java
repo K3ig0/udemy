@@ -20,6 +20,8 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.condition.DisabledOnOs;
+import org.junit.jupiter.api.condition.OS;
 import org.junit.jupiter.api.function.Executable;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
@@ -87,7 +89,7 @@ class BMICalculatorTest {
 		
 		@Test
 		@DisplayName(">>>> sample method display name")
-		@Disabled
+		@DisabledOnOs(OS.WINDOWS)
 		void should_ReturnCoderWithWorstBMI_When_CoderListNotEmpty() {
 			//given
 			List<Coder> coders = new ArrayList<>();
