@@ -12,6 +12,9 @@ public class ActivityCalculator {
 		if (avgDailyActivityMins < 20) {
 			return "bad";
 		}
+		if (avgDailyActivityMins < 40) {
+			return "average";
+		}
 		
 		return "";
 	}
