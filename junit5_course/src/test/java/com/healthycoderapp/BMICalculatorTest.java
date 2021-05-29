@@ -6,8 +6,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTimeout;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -86,6 +88,21 @@ class BMICalculatorTest {
 			() -> assertEquals(98.0, coderWorstBMI.getWeight()),
 			() -> assertEquals(1.82, coderWorstBMI.getHeight())
 		);
+	}
+	
+	@Test
+	void should_ReturnCoderWithWorstBMIIn1Ms_When_CoderListHas10000Elements() {
+		//given
+		List<Coder> coders = new ArrayList<>();
+		for (int i=0; i < 10000; i++) {
+			coders.add(new Coder(1.0 + i, 10.0 + i));
+		}
+		
+		//when
+		Executable executable = () -> BMICalculator.findCoderWithWorstBMI(coders);
+		
+		//then
+		assertTimeout(Duration.ofMillis(500), executable);
 	}
 	
 	@Test
