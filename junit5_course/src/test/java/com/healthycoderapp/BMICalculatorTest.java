@@ -16,7 +16,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
+import org.junit.jupiter.params.provider.CsvSource;
 
 class BMICalculatorTest {
 	
@@ -30,12 +30,12 @@ class BMICalculatorTest {
 		System.out.println("After all unit tests");
 	}
 
-	@ParameterizedTest
-	@ValueSource(doubles = { 89.0, 95.0, 110.0 } )
-	void should_ReturnTrue_When_DietRecommended(Double coderWeight) {
+	@ParameterizedTest(name = "weight={0}, height={1}") // without specifying these values also works
+	@CsvSource(value = { "89.0, 1.72", "95.0, 1.75", "110.0, 1.78" })
+	void should_ReturnTrue_When_DietRecommended(Double coderWeight, Double coderHeight) {
 		//given
 		double weight = coderWeight;
-		double height = 1.72;
+		double height = coderHeight;
 		
 		//when
 		boolean recommended = BMICalculator.isDietRecommended(weight, height);
