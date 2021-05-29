@@ -16,7 +16,7 @@ public class ActivityCalculator {
 			return "average";
 		}
 		
-		return "";
+		return "good";
 	}
 
 }
