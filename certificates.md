@@ -57,3 +57,7 @@
 ### Java Reflection - Master Class -by Michael Pogrebinsky-
 > https://imatia.udemy.com/certificate/UC-2e842fa8-2487-49a9-81ef-d72140e95de5
 >>
+
+### Learn practical Java Unit Testing with JUnit 5 in just 1 hour -by Adrian Więch-
+> 
+>>
