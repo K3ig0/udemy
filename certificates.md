@@ -65,3 +65,7 @@
 ### Microsoft Excel - Excel from Beginner to Advanced -by Kyle Pew-
 > https://udemy-certificate.s3.amazonaws.com/pdf/UC-c854825f-069e-4a24-bb38-f20049dcb78d.pdf
 >>
+
+### Mockito: Next-Level Java Unit Testing -by Adrian Więch-
+> https://udemy-certificate.s3.amazonaws.com/pdf/UC-bb1a3e4b-95d9-47e4-9ab1-11b4aa67ffdd.pdf
+>>
