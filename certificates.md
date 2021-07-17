@@ -69,3 +69,7 @@
 ### Mockito: Next-Level Java Unit Testing -by Adrian Więch-
 > https://udemy-certificate.s3.amazonaws.com/pdf/UC-bb1a3e4b-95d9-47e4-9ab1-11b4aa67ffdd.pdf
 >>
+
+### The Complete 2021 Flutter Development Bootcamp with Dart -by Dr. Angela Yu-
+> https://udemy-certificate.s3.amazonaws.com/pdf/UC-9609d748-836a-470c-adf8-1a615e73a5e4.pdf
+>>
