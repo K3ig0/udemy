@@ -73,3 +73,7 @@
 ### The Complete 2021 Flutter Development Bootcamp with Dart -by Dr. Angela Yu-
 > https://udemy-certificate.s3.amazonaws.com/pdf/UC-9609d748-836a-470c-adf8-1a615e73a5e4.pdf
 >>
+
+### Learn RabbitMQ: Asynchronous Messaging with Java and Spring -by Niyazi Erdogan-
+> https://udemy-certificate.s3.amazonaws.com/pdf/UC-bf292bb4-eeee-44a1-9ff0-e6d8c1ec67a4.pdf
+>>
