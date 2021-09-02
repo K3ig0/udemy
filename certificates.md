@@ -76,4 +76,7 @@
 
 ### Learn RabbitMQ: Asynchronous Messaging with Java and Spring -by Niyazi Erdogan-
 > https://udemy-certificate.s3.amazonaws.com/pdf/UC-bf292bb4-eeee-44a1-9ff0-e6d8c1ec67a4.pdf
+
+### Intellij IDEA Tricks to Boost Productivity for Java Devs -by Tao W. & James Lee-
+> https://udemy-certificate.s3.amazonaws.com/pdf/UC-4bd8de54-e8b4-4815-a5e7-07c151f83c2a.pdf
 >>
